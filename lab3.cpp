@@ -84,7 +84,7 @@ std::string trapezoid (int width, int height)
   }
   for (int i=0; i<height;i++)
   {
-    for (int j=0; j<width;j++)
+    for (int j=0; j<=width-i;j++)
     {
       if (j<i)
         output+=" ";
