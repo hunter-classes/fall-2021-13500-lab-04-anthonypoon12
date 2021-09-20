@@ -48,3 +48,14 @@ std::string cross (int size)
   }
   return output;
 }
+std::string lower (int length)
+{
+  std::string output="";
+  for (int i=0;i<length;i++)
+  {
+    for (int j=0;j<=i;j++)
+      output+="*";
+    output+="\n";
+  }
+  return output;
+}
