@@ -8,4 +8,5 @@ int main()
   std::cout<<cross(9)<<"\n";
   std::cout<<lower(9)<<"\n";
   std::cout<<upper(9)<<"\n";
+  std::cout<<trapezoid(9,3)<<"\n";
 }
