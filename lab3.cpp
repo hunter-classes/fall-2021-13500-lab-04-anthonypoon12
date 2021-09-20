@@ -1,7 +1,28 @@
 /*
-Write a program box.cpp that asks the user to input width and height and prints a solid rectangular box of the requested size using asterisks.
-
+Author: Anthony Poon
+Course: CSCI-135
+Instructor: Tong Yi, Mike Zamansky
+Assignment: Lab 4
+Task A. Box
+Write a program box.cpp that asks the user to input width and height and
+prints a solid rectangular box of the requested size using asterisks.
 Also, print a line Shape: between user input and the printed shape (to separate input from output).
+Task B. Checkerboard
+Write a program checkerboard.cpp that asks the user to input width and
+height and prints a rectangular checkerboard of the requested size using asterisks and spaces (alternating).
+Task C. Cross
+Write a program cross.cpp that asks the user to input the shape size,
+and prints a diagonal cross of that dimension.
+Task D. Lower triangle
+Write a program lower.cpp that prints the bottom-left half of a square, given the side length.
+Task E. Upper triangle
+Write a program upper.cpp that prints the top-right half of a square, given the side length.
+Task F. Upside-down trapezoid or triangle
+Write a program trapezoid.cpp that prints an upside-down trapezoid of given width and height.
+However, if the input height is impossibly large for the given width, then the program should report, Impossible shape!
+Task G. Checkerboard (3x3)
+Write a program checkerboard3x3.cpp that asks the user to input width and
+height and prints a checkerboard of 3-by-3 squares. (It should work even if the input dimensions are not a multiple of three.)
 */
 #include <iostream>
 
