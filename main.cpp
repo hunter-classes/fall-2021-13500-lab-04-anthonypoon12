@@ -6,4 +6,5 @@ int main()
   std::cout<<checkerboard(10,5)<<"\n";
   std::cout<<cross(10)<<"\n";
   std::cout<<cross(9)<<"\n";
+  std::cout<<lower(9)<<"\n";
 }
