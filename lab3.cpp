@@ -98,7 +98,7 @@ std::string trapezoid (int width, int height)
 }
 std::string checkerboard3x3(int width, int height)
 {
-  std::output=";"
+  std::string output=";";
   for (int i=1; i<=height; i++)
   {
     for (int j=1; j<=width; j++)
@@ -117,4 +117,3 @@ std::string checkerboard3x3(int width, int height)
     }
     return output;
   }
-}
