@@ -58,6 +58,7 @@ std::string lower (int length)
     output+="\n";
   }
   return output;
+}
 std::string upper (int length)
 {
   std::string output="";
