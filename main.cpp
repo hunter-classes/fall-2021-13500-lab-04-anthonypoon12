@@ -7,4 +7,5 @@ int main()
   std::cout<<cross(10)<<"\n";
   std::cout<<cross(9)<<"\n";
   std::cout<<lower(9)<<"\n";
+  std::cout<<upper(9)<<"\n";
 }
