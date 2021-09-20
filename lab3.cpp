@@ -75,3 +75,24 @@ std::string upper (int length)
   }
   return output;
 }
+std::string trapezoid (int width, int height)
+{
+  std::string output="";
+  if (height > (width/2))
+  {
+    return "Impossible shape!";
+  }
+  for (int i=0; i<height;i++)
+  {
+    for (int j=0; j<width;j++)
+    {
+      if (j<i)
+        output+=" ";
+      else if (j>(width-1-i))
+        output+="\n";
+      else
+        output+="*";
+    }
+  }
+  return output;
+}
