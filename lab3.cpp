@@ -98,20 +98,22 @@ std::string trapezoid (int width, int height)
 }
 std::string checkerboard3x3(int width, int height)
 {
-  std::string output=";";
-  for (int i=1; i<=height; i++)
+  std::string output="";
+  for (int i=0; i<height; i++)
   {
-    for (int j=1; j<=width; j++)
+    for (int j=0; j<width; j++)
     {
-      if (i%6<=3)
+      if (i%6<3)
       {
-        if (j%6<=3)
+        if (j%6<3)
           output+="*";
-      }
-      else if (j%6>3)
-        output+="*";
-      else
-        output+=" ";
+        else
+          output+=" ";
+        }
+        else if (j%6>=3)
+          output+="*";
+        else
+          output += " ";
       }
       output+="\n";
     }
