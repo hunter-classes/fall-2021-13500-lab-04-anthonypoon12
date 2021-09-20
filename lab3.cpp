@@ -64,7 +64,7 @@ std::string upper (int length)
   std::string output="";
   for (int i=length-1;i>=0;i--)
   {
-    for (int j=length;j>0;j--)
+    for (int j=length-1;j>=0;j--)
     {
       if (j<=i)
         output+="*";
