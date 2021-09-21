@@ -99,7 +99,7 @@ std::string upper (int length)
 std::string trapezoid (int width, int height)
 {
   std::string output="";
-  if (height > (width/2))
+  if (height > ((width+1)/2))
   {
     return "Impossible shape!";
   }
