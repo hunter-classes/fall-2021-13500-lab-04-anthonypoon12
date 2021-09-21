@@ -24,6 +24,7 @@ int main()
 std::cout<<trapezoid(8,4)<<"\n";
 std::cout<<trapezoid(9,4)<<"\n";
 std::cout<<trapezoid(9,5)<<"\n";
+std::cout<<trapezoid(10,10)<<"\n";
   std::cout<<checkerboard3x3(9,3)<<"\n";
   std::cout<<checkerboard3x3(21, 21)<<"\n";
   std::cout<<checkerboard3x3(14, 7)<<"\n";
