@@ -40,10 +40,10 @@ std::cout<<"Trapezoid with width 9 and height 5: "<<"\n";
 std::cout<<trapezoid(9,5)<<"\n";
 std::cout<<"Trapezoid with width 10 and height 10: "<<"\n";
 std::cout<<trapezoid(10,10)<<"\n";
-std::cout<<"3c3 checkerboard width 9 height 3: "<<"\n";
+std::cout<<"3x3 checkerboard width 9 height 3: "<<"\n";
   std::cout<<checkerboard3x3(9,3)<<"\n";
-  std::cout<<"3c3 checkerboard width 21 height 21: "<<"\n";
+  std::cout<<"3x3 checkerboard width 21 height 21: "<<"\n";
   std::cout<<checkerboard3x3(21, 21)<<"\n";
-  std::cout<<"3c3 checkerboard width 14 height 7: "<<"\n";
+  std::cout<<"3x3 checkerboard width 14 height 7: "<<"\n";
   std::cout<<checkerboard3x3(14, 7)<<"\n";
 }
