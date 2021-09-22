@@ -35,6 +35,7 @@ std::string box(int width, int height)
       output+="*";
     output+="\n";
   }
+    output = "Shape: \n" + output;
   return output;
 }
 std::string checkerboard (int width, int height)
@@ -51,6 +52,7 @@ std::string checkerboard (int width, int height)
     }
     output+="\n";
   }
+    output = "Shape: \n" + output;
   return output;
 }
 std::string cross (int size)
@@ -67,6 +69,7 @@ std::string cross (int size)
     }
     output += "\n";
   }
+    output = "Shape: \n" + output;
   return output;
 }
 std::string lower (int length)
@@ -78,6 +81,7 @@ std::string lower (int length)
       output+="*";
     output+="\n";
   }
+    output = "Shape: \n" + output;
   return output;
 }
 std::string upper (int length)
@@ -94,6 +98,7 @@ std::string upper (int length)
     }
     output+="\n";
   }
+    output = "Shape: \n" + output;
   return output;
 }
 std::string trapezoid (int width, int height)
@@ -115,6 +120,7 @@ std::string trapezoid (int width, int height)
         output+="*";
     }
   }
+    output = "Shape: \n" + output;
   return output;
 }
 std::string checkerboard3x3(int width, int height)
@@ -138,5 +144,6 @@ std::string checkerboard3x3(int width, int height)
       }
       output+="\n";
     }
+    output = "Shape: \n" + output;
     return output;
   }
