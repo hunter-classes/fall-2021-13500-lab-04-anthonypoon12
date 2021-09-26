@@ -20,6 +20,8 @@ int main()
   std::cout<<checkerboard(20,10)<<"\n";
   std::cout<<"Cross with size 8: "<<"\n";
   std::cout<<cross(8)<<"\n";
+std::cout<<"Cross with size 9: "<<"\n";
+std::cout<<cross(9)<<"\n";
   std::cout<<"Cross with size 13: "<<"\n";
   std::cout<<cross(13)<<"\n";
   std::cout<<"Lower triangle size 6: "<<"\n";
